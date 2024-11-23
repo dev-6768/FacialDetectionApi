@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Frames</title>
+</head>
+<body bgcolor="black">
+<center><h1 style="color:white"><i>Camera Feed</i></h1></center>
+
+<p><h3 style="color:white"><center><i>Streaming from Android Phone Camera.<br>you can also turn on flashlight and switch between front and back camera.</i></center></h3></p>
+
+<center><img src="{{ url_for("video_feed")}}" width="800" height="500"><br><br></center>
+<form action="/" method="post">
+<center><input type="submit" name="led" value="Turn on/off LED"><br></center>
+</form>
+
+<form action="/camera", method="post">
+<center><input type="submit" name="camera" value="Front/Back Camera"></center>
+</form>
+
+</body>
+</html>
