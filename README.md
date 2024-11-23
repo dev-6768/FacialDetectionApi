@@ -29,7 +29,8 @@ The Facial Detection App is a web-based application that uses advanced computer 
 
 ## Setup and Installation
 
-- How to use :
+How to use :
+- git clone https://github.com/dev-6768/FacialDetectionApi.git
 - Download IP camera app from google playstore : [IP Camera](https://play.google.com/store/apps/details?id=com.pas.webcam&hl=en_IN)
 - Start the server from the app by clicking on the 3-dots above. This will return you the url for ip address for streaming your ip camera
 - to use the ip camera, change the camera_path variable in WebcamApi.py file with the url of ip address of the ip camera. Make sure that your camera and device are connected to the same network(A fast wifi is recommended to stream the image). also ensure to add the "/video" at the end of your server url path.
